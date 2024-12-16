@@ -1,0 +1,53 @@
+{ "testimonial":[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "location": "New York, USA",
+      "rating": "/review1.png",
+      "testimonial": "The villa was absolutely stunning! The views were breathtaking, and the service was top-notch. I felt like royalty during my stay.",
+      "image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Sophia Johnson",
+      "location": "London, UK",
+      "rating": "/review2.png",
+      "testimonial": "A fantastic getaway spot! The villa was spacious and well-maintained. Minor hiccups with the Wi-Fi, but overall, a delightful experience.",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "location": "Sydney, Australia",
+      "rating": "/review1.png",
+      "testimonial": "Beautiful interiors and excellent hospitality. The nearby attractions were easily accessible. Will definitely return!",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 5,
+      "name": "Carlos Martinez",
+      "location": "Barcelona, Spain",
+      "rating": "/review1.png",
+      "testimonial": "This villa exceeded all expectations! The architecture and amenities were beyond luxurious. A dream vacation spot.",
+      "image":  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Amelia Clarke",
+      "location": "Toronto, Canada",
+      "rating": "/review2.png",
+      "testimonial": "From the spacious living areas to the exquisite decor, everything was perfect. The villa provided a serene escape from city life.",
+      "image":"https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80"
+      
+    },
+    {
+      "id": 7,
+      "name": "Liam Nguyen",
+      "location": "Ho Chi Minh City, Vietnam",
+      "rating": "/review1.png",
+      "testimonial": "The hospitality was exceptional, and the villa itself was a masterpiece. The tropical garden and infinity pool were my favorite features.",
+      "image":  "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+     
+    }
+  ]}
+  

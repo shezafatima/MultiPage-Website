@@ -1,0 +1,69 @@
+  {
+    
+      "property": [
+        {
+          "id": 1,
+          "image":  "/villa8.jpeg",
+          "price": "$ 500,000",
+          "location": "Los Angeles, CA",
+          "description": "A luxurious 4-bedroom villa with a stunning garden and pool."
+        },
+        {
+          "id": 2,
+          "image":  "/villa4.jpeg",
+          "price": "$ 350,000",
+          "location": "Austin, TX",
+          "description": "A cozy 3-bedroom house with modern interiors in a prime location."
+        },
+        {
+          "id": 3,
+          "image":  "/villa1.jpeg",
+          "price": "$ 800,000",
+          "location": "New York, NY",
+          "description": "A spacious penthouse with a breathtaking city view."
+        },
+        {
+          "id": 5,
+          "image": "/villa5.jpeg",
+          "price": "$ 600,000",
+          "location": "Seattle, WA",
+          "description": "A contemporary 4-bedroom home surrounded by lush greenery."
+        },
+        {
+          "id": 6,
+          "image": "/villa.jpeg",
+          "price": "$ 1,200,000",
+          "location": "San Francisco, CA",
+          "description": "An ultra-modern 5-bedroom villa with a panoramic view of the bay."
+        },
+        {
+          "id": 7,
+          "image": "/villa6.jpeg",
+          "price": "$ 700,000",
+          "location": "Denver, CO",
+          "description": "A charming 3-bedroom cabin nestled in the mountains."
+        },
+        {
+          "id": 8,
+          "image": "/villa3.jpeg",
+          "price": "$ 400,000",
+          "location": "Portland, OR",
+          "description": "A sleek 2-bedroom townhouse with eco-friendly features."
+        },
+        {
+          "id": 9,
+          "image": "/villa7.jpeg",
+          "price": "$ 900,000",
+          "location": "Chicago, IL",
+          "description": "A spacious 4-bedroom home with a rooftop deck."
+        },
+        {
+          "id": 10,
+          "image":  "/villa2.jpeg",
+          "price": "$ 1,500,000",
+          "location": "Boston, MA",
+          "description": "A historic 6-bedroom mansion in a prestigious neighborhood."
+        }
+      ]
+    }
+  
