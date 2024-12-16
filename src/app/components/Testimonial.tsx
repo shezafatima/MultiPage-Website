@@ -11,7 +11,7 @@ interface Testimonials {
 }
 
 function Testimonial() {
-  return <div>
+  return <div id="testimonial">
     <div className="flex justify-center items-center flex-col mt-20 md:mx-0 mx-4">
     <h1 className="md:text-6xl text-3xl font-bold text-gray-700 tracking-wide text-center">Customer Testimonials</h1>
     <p className="mt-2  text-center text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, modi?</p>

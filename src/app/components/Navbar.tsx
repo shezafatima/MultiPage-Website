@@ -1,13 +1,15 @@
 "use client";
-import { useState } from "react";
-import { MdCancelPresentation } from "react-icons/md";
 import { MdMenu } from "react-icons/md";
 import Link from "next/link";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen((prev) => !prev);
-  };
   return (
     <nav>
       <div className=" justify-between ">
@@ -16,8 +18,8 @@ const Navbar = () => {
           id="navbar-default"
         >
           <div
-            className={`hidden md:flex  justify-between items-center py-5  
-             ${isOpen ? "block" : "hidden"}`}
+            className="hidden md:flex  justify-between items-center py-5  "
+            
           >
             <ul className="flex justify-evenly items-start  space-x-10 text-white text-md ">
               <li>
@@ -29,7 +31,7 @@ const Navbar = () => {
                 <Link href="#About" className="block">About</Link>
               </li>
               <li>
-                <Link href="/testimonial" className="block">Testimonial</Link>
+                <Link href="#testimonial" className="block">Testimonial</Link>
               </li>
               <li>
                 <Link href="/contact" className="block">Contact us</Link>
@@ -43,32 +45,39 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-end justify-end md:hidden">
-          <button onClick={toggleMenu} className="focus:outline-none">
-            {isOpen ? (
-              <div className="sm:text-6xl text-4xl text-white sm:p-6 p-4">
-                <MdCancelPresentation />
-              </div>
-            ) : (
-              <div className="sm:text-6xl text-4xl text-white sm:p-6 p-4">
-                <MdMenu />
-              </div>
-            )}
-          </button>
+        <div className="flex justify-end md:hidden">
+        <Sheet>
+  <SheetTrigger className="text-white text-3xl p-4">
+<MdMenu />
+  </SheetTrigger>
+  <SheetContent>
+    <SheetHeader className="text-black text-lg  px-8 flex flex-col justify-center items-center space-y-6">
+      <Link href="/">
+      <SheetTitle>Home</SheetTitle>
+      </Link>
+    
+      <Link href="#About">
+      <SheetTitle>About</SheetTitle>
+      </Link>
+    
+      <Link href="#testimonial">
+      <SheetTitle>Testimonial</SheetTitle>
+      </Link>
+    
+      <Link href="/contact">
+      <SheetTitle>Contact</SheetTitle>
+      </Link>
+    
+    </SheetHeader>
+  </SheetContent>
+</Sheet>
+
         </div>
       </div>
-      {isOpen && (
-        <div className="md:hidden">
-          <div>
-            <Link href="/">Home</Link>
-            <Link href="#About">About</Link>
-            <Link href="#testimonial">Testimonial</Link>
-            <Link href="/contact">Contact us</Link>
-          </div>
-        </div>
-      )}
+      
     </nav>
   );
 }
+
 
 export default Navbar;
