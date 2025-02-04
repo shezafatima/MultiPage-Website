@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Contact(){
     return(
-        <div className="bg-gray-700 h-screen">
+        <div className="bg-gray-700 h-screen ">
             <div className="lg:grid lg:grid-cols-2 flex flex-col justify-center items-centerflex-wrap pt-20 px-12">
                 <div>
                     <p className="text-white ">Contact us</p>

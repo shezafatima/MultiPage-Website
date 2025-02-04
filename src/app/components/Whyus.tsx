@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Whyus() {
   return (
@@ -37,7 +38,9 @@ function Whyus() {
         <p className="md:text-xl text-lg text-white mt-2 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, voluptatem?</p>
         <div className=" sm:grid grid-cols-2 flex flex-col mt-4 gap-6"> 
         <button className="bg-white  text-black px-6 py-2  border rounded-md hover:bg-transparent hover:text-white hover:border-white">Book now  &#8594;</button>
+        <Link href='/contact'>
         <button className="hover:bg-white  hover:text-black px-5 py-2  border rounded-md bg-transparent text-white border-white">Contact now  &#8594;</button>
+        </Link>
 
 
 

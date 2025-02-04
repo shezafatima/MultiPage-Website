@@ -88,13 +88,13 @@ const CardSlider: React.FC<CardSliderProps> = ({ properties }) => {
         onClick={() => sliderRef.current?.slickPrev()}
         className=" ml-2 absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-gray-800 px-2 py-1 rounded-full hover:bg-gray-400 hover:text-white"
       >
-        &#9664; {/* Left arrow */}
+        &#9664; 
       </button>
       <button
         onClick={() => sliderRef.current?.slickNext()}
         className=" mr-2 absolute top-1/2 right-0 transform -translate-y-1/2 bg-white  text-gray-800 px-2 py-1 rounded-full hover:bg-gray-400 hover:text-white"
       >
-        &#9654; {/* Right arrow */}
+        &#9654; 
       </button>
     </div>
   );

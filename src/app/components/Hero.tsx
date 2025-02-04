@@ -1,6 +1,6 @@
 
 "use client";
-import Navbar from "./Navbar";
+
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -22,7 +22,7 @@ function Hero() {
       }}
     >
       <div className="absolute inset-0 bg-opacity-50"></div>
-      <Navbar />
+     
 
       {/* Content */}
       <div className="relative z-10 md:grid md:grid-cols-2 flex flex-col items-center justify-center h-full text-center   text-white">

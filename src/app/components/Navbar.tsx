@@ -21,17 +21,17 @@ const Navbar = () => {
             className="hidden md:flex  justify-between items-center py-5  "
             
           >
-            <ul className="flex justify-evenly items-start  space-x-10 text-white text-md ">
+            <ul className="flex justify-evenly items-start  space-x-10 text-gray-800 font-semibold text-md ">
               <li>
                 <Link href="/" className="block ml-8" aria-current="page">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#About" className="block">About</Link>
+                <Link href="/#About" className="block">About</Link>
               </li>
               <li>
-                <Link href="#testimonial" className="block">Testimonial</Link>
+                <Link href="/properties" className="block">Property</Link>
               </li>
               <li>
                 <Link href="/contact" className="block">Contact us</Link>
@@ -39,8 +39,8 @@ const Navbar = () => {
             </ul>
             {/* <div className="text-white text-xl uppercase font-bold">Clay Global</div> */}
             <div className="mr-8 block">
-              <button className="bg-white border text-black px-6 py-2 rounded-md hover:bg-transparent hover:text-white hover:border-white">
-                Sign up &#8594;
+              <button className="border text-gray-800 border-gray-800 font-semibold px-6 py-2 rounded-md hover:bg-transparent hover:text-white hover:bg-gray-800">
+                Sign In &#8594;
               </button>
             </div>
           </div>
@@ -56,12 +56,12 @@ const Navbar = () => {
       <SheetTitle>Home</SheetTitle>
       </Link>
     
-      <Link href="#About">
+      <Link href="/#About">
       <SheetTitle>About</SheetTitle>
       </Link>
     
-      <Link href="#testimonial">
-      <SheetTitle>Testimonial</SheetTitle>
+      <Link href="/properties">
+      <SheetTitle>Properties</SheetTitle>
       </Link>
     
       <Link href="/contact">

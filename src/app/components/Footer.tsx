@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div>
       <div
-        className=" mt-20 relative md:h-[24rem]  w-full bg-cover bg-center"
+        className="  relative md:h-[24rem]  w-full bg-cover bg-center"
         style={{
           backgroundImage: "url('/last.jpg')",
         }}
@@ -32,12 +32,12 @@ function Footer() {
           <div  className="flex flex-col text-white mt-7 ">
             <Link href="">Home</Link>
             <Link href="">About us</Link>
-            <Link href="">Properties</Link>
+            <Link href="/properties">Properties</Link>
           </div>
           </div>
         </div>
         <hr />
-        <h1 className="text-white mx-[5rem] font-bold md:my-6 md:mt-4 mt-2">&#169; All rights reserved 2024 by Clay Global</h1>
+        <h1 className="text-white mx-[5rem] font-bold md:my-6 md:mt-4 mt-2">&#169; All rights reserved 2025 by Clay Global</h1>
       </div>
     </div>
   );
